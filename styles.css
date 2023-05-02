@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    color: #404040;
+    color: #2b2b2b;
     margin: 0;
 }
 
@@ -15,7 +15,7 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 400;
-    text-shadow: 0 2px #816fca;
+    text-shadow: 2px 2px #035e0a;
 }
 
 h2 {
@@ -80,7 +80,7 @@ p {
     min-height: 250px;
     text-align: center;
     color: #fff;
-    background: #9480e4 url("images/intro-bg.png");
+    background: #16aaa3 url("images/guitar.avif");
     background-size: cover;
     padding-bottom: 1.5em;
 }
@@ -92,11 +92,14 @@ p {
 .main-content {
     align-items: center;
     padding-top: 2.5em;
+    background-color: #b5f5ed;
+    border-top: 8px solid #2b2b2b;
 }
 
 .img-main {
     width: 120px;
-    border-radius: 50%;
+    border-radius: 20%;
+    border: solid 3px #000000;
 }
 
 .main-content p,
@@ -123,8 +126,8 @@ input {
 
 input:focus {
     outline: none;
-    border-color: #8a71ec;
-    background-color: #e6e8ec;
+    border-color: #000000;
+    background-color: #eaeaea;
 }
 
 .btn {
@@ -138,13 +141,13 @@ input:focus {
 
 .btn-primary {
     color: white;
-    background-color: #8a71ec;
+    background-color: #2b2b2b;
     margin-top: 1em;    
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #b7a7f6;
+    background-color: #747474;
 }
 
 /* =================
@@ -180,5 +183,7 @@ input:focus {
     .main-content {
         justify-content: center;
         padding-top: 0;
+        border-top: none;
+        border-left: 8px solid #2b2b2b;
     }
 }
